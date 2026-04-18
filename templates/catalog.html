@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block content %}
+<main class="catalog-page" data-whatsapp-link="{{ whatsapp_link }}">
+  <div class="catalog-float catalog-float-lip"></div>
+  <div class="catalog-float catalog-float-glow"></div>
+  <div class="catalog-float catalog-float-brush"></div>
+  <div class="catalog-bubble bubble-one"></div>
+  <div class="catalog-bubble bubble-two"></div>
+  <div class="catalog-bubble bubble-three"></div>
+  <div class="catalog-spark spark-one"></div>
+  <div class="catalog-spark spark-two"></div>
+
+  <section class="catalog-hero">
+    <div>
+      <span class="eyebrow">Tu coleccion Ma&LuMakeup</span>
+      <h1>Aqui tienes el catalogo para tu mejor look, con productos que resaltan tu belleza y te ayudan a elegir con mas confianza.</h1>
+      <p>Explora tonos, kits y accesorios, abre cada imagen para verla mejor y elige con tranquilidad lo que quieres llevar en tu pedido.</p>
+    </div>
+    <div class="catalog-hero-side">
+      <img class="catalog-brand-image" src="{{ url_for('static', filename='img/malu-makeup-brand.png') }}" alt="Ma&Lu Makeup">
+      <a class="button primary" href="{{ whatsapp_link }}" target="_blank" rel="noreferrer">WhatsApp pedidos</a>
+    </div>
+  </section>
+
+  <section class="catalog-layout">
+    <div class="catalog-main">
+      <div class="toolbar">
+        <input id="searchInput" type="search" placeholder="Buscar producto o referencia">
+        <select id="categoryFilter">
+          <option value="">Todas las categorias</option>
+        </select>
+      </div>
+      <div id="productGrid" class="product-grid"></div>
+    </div>
+
+    <aside class="cart-panel">
+      <h2>Tu pedido</h2>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-total">
+        <span>Total</span>
+        <strong id="cartTotal">$0</strong>
+      </div>
+      <form id="checkoutForm" class="checkout-form">
+        <input name="customer_name" placeholder="Nombre completo" required>
+        <input name="phone" placeholder="Telefono" required>
+        <input name="city" placeholder="Ciudad o municipio">
+        <input name="address" placeholder="Direccion" required>
+        <textarea name="notes" placeholder="Notas del pedido"></textarea>
+        <button class="button primary" type="submit">Guardar pedido</button>
+      </form>
+    </aside>
+  </section>
+
+  <div id="imageModal" class="image-modal" hidden>
+    <button id="closeImageModal" class="image-modal-close" type="button" aria-label="Cerrar imagen">X</button>
+    <div class="image-modal-dialog">
+      <img id="imageModalPreview" src="" alt="">
+      <div class="image-modal-caption">
+        <h3 id="imageModalTitle"></h3>
+        <p id="imageModalText"></p>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="{{ url_for('static', filename='js/store.js') }}"></script>
+{% endblock %}

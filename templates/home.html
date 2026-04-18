@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block content %}
+<main class="landing">
+  <div class="floating-makeup floating-lipstick"></div>
+  <div class="floating-makeup floating-brush"></div>
+  <div class="floating-makeup floating-gloss"></div>
+  <div class="floating-makeup floating-compact"></div>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">MAQUILLAJE · BELLEZA · ESTILO</span>
+      <h1>✨ Bienvenida a <span>Ma&LuMakeup</span> ✨</h1>
+      <p>Tu espacio ideal para descubrir tus productos favoritos 💄💖<br>Compra fácil, rápida y 100% segura 🛍️✨<br>¡Luce increíble todos los días con nosotros! 💋</p>
+      <div class="hero-actions">
+        <a class="button primary" href="{{ url_for('catalog') }}">Ver catalogo</a>
+        <a class="button ghost" href="{{ whatsapp_link }}" target="_blank" rel="noreferrer">WhatsApp vendedor {{ contact_phone }}</a>
+      </div>
+      <div class="hero-stats">
+        <article>
+          <strong>{{ stats.products }}</strong>
+          <span>productos disponibles</span>
+        </article>
+        <article>
+          <strong>{{ stats.available }}</strong>
+          <span>existencia de productos en venta</span>
+        </article>
+      </div>
+    </div>
+
+    <div class="hero-panel">
+      <div class="hero-card">
+        <span class="mini-label">Coleccion destacada</span>
+        <h2>Todo para un look que enamora</h2>
+        <img class="hero-collection-image" src="{{ url_for('static', filename='img/home-collection.png') }}" alt="Coleccion Ma&LuMakeup">
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-grid">
+    <div class="section-head">
+      <span class="eyebrow">Esenciales Ma&LuMakeup</span>
+      <h2>Productos que realzan tu belleza y hacen brillar cada look.</h2>
+    </div>
+    <div class="product-grid preview-grid">
+      {% for item in featured %}
+      <article class="product-card">
+        <img src="{{ item.image_path }}" alt="{{ item.name }}">
+        <div class="product-body">
+          <span class="pill">{{ item.category }}</span>
+          <h3>{{ item.name }}</h3>
+          <p>{{ item.promotion_text }}</p>
+          <div class="price-row">
+            <strong>${{ "{:,.0f}".format(item.sale_price).replace(",", ".") }}</strong>
+            <small>Ref. {{ item.reference or "Catalogo" }}</small>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+</main>
+{% endblock %}

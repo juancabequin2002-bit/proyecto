@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block content %}
+<main class="admin-page">
+  <section class="admin-header">
+    <div>
+      <span class="eyebrow">Panel administrador</span>
+      <h1>Actualiza catálogo, precios y promociones en vivo.</h1>
+    </div>
+    <button id="logoutButton" class="button ghost" type="button">Cerrar sesión</button>
+  </section>
+  <section id="adminGrid" class="admin-grid"></section>
+</main>
+<script>
+  const adminGrid = document.getElementById('adminGrid');
+  const logoutButton = document.getElementById('logoutButton');
+
+  async function loadProducts() {
+    const response = await fetch('/api/products?all=1');
+    if (!response.ok) {
+      window.location.href = '/admin';
+      return;
+    }
+    const data = await response.json();
+    adminGrid.innerHTML = data.products.map((item) => `
+      <article class="admin-card">
+        <img src="${item.image_path}" alt="${item.name}">
+        <div class="admin-card-body">
+          <p class="mini-label">${item.category}</p>
+          <input data-id="${item.id}" data-field="name" value="${item.name}">
+          <input data-id="${item.id}" data-field="category" value="${item.category}">
+          <input data-id="${item.id}" data-field="reference" value="${item.reference || ''}">
+          <textarea data-id="${item.id}" data-field="description">${item.description || ''}</textarea>
+          <input data-id="${item.id}" data-field="promotion_text" value="${item.promotion_text || ''}">
+          <div class="inline-fields">
+            <label>Precio base <input data-id="${item.id}" data-field="cost_price" type="number" value="${item.cost_price}"></label>
+            <label>Venta <input data-id="${item.id}" data-field="sale_price" type="number" value="${item.sale_price}"></label>
+            <label>Stock <input data-id="${item.id}" data-field="stock" type="number" value="${item.stock}"></label>
+          </div>
+          <label class="toggle-row">
+            <input data-id="${item.id}" data-field="is_active" type="checkbox" ${item.is_active ? 'checked' : ''}>
+            Producto visible
+          </label>
+          <button class="button primary save-button" data-id="${item.id}" type="button">Guardar cambios</button>
+        </div>
+      </article>
+    `).join('');
+  }
+
+  adminGrid.addEventListener('click', async (event) => {
+    const target = event.target;
+    if (!target.classList.contains('save-button')) return;
+    const id = target.dataset.id;
+    const fields = [...adminGrid.querySelectorAll(`[data-id="${id}"][data-field]`)];
+    const payload = {};
+    fields.forEach((field) => {
+      if (field.type === 'checkbox') payload[field.dataset.field] = field.checked ? 1 : 0;
+      else if (field.type === 'number') payload[field.dataset.field] = Number(field.value || 0);
+      else payload[field.dataset.field] = field.value;
+    });
+    const response = await fetch(`/api/admin/products/${id}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    const data = await response.json();
+    target.textContent = response.ok ? 'Guardado' : (data.message || 'Error');
+    setTimeout(() => { target.textContent = 'Guardar cambios'; }, 1800);
+  });
+
+  logoutButton.addEventListener('click', async () => {
+    await fetch('/api/admin/logout', { method: 'POST' });
+    window.location.href = '/admin';
+  });
+
+  loadProducts();
+</script>
+{% endblock %}

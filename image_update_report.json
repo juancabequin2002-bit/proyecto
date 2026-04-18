@@ -1,0 +1,3208 @@
+{
+  "updated": [
+    {
+      "reference": "CRG1420",
+      "name": "Corrector Hidratante Rebel Girl",
+      "page": 3,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\crg1420.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BAT2272",
+      "name": "Base Aura",
+      "page": 5,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bat2272.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SP98",
+      "name": "Corrector Doble Super Cool",
+      "page": 7,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sp98.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CTT2229",
+      "name": "Corrector De Ojeras Aura",
+      "page": 8,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ctt2229.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BF23",
+      "name": "Polvos Sueltos Traslúcidos",
+      "page": 10,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bf23.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PSB1688",
+      "name": "Polvos Sueltos Bakery Flour Grande 15g",
+      "page": 10,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\psb1688.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BBS2169",
+      "name": "Banana Boom Polvos Sueltos",
+      "page": 11,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bbs2169.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PCF2054",
+      "name": "Polvos Compactos Golden",
+      "page": 12,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\pcf2054.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PST1590",
+      "name": "Polvos Sueltos Osito Teddy",
+      "page": 13,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\pst1590.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BMT1675",
+      "name": "Base Mousse",
+      "page": 14,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bmt1675.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ID02",
+      "name": "Kit x 4 Iluminador Dreams",
+      "page": 16,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\id02.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ILK2286",
+      "name": "Iluminador Líquido Panda",
+      "page": 16,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ilk2286.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "IPU1654",
+      "name": "Iluminador Pin Up",
+      "page": 18,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ipu1654.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PH03",
+      "name": "Polvo de Hadas",
+      "page": 19,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ph03.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PHM2166",
+      "name": "Polvo de Hadas Golden",
+      "page": 19,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\phm2166.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SLB1927",
+      "name": "Iluminador Líquido Brilla",
+      "page": 20,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\slb1927.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ILS1473",
+      "name": "Iluminador Líquido The Sun",
+      "page": 20,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ils1473.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CHT1253",
+      "name": "Iluminador En Trío Cloud Highlighter",
+      "page": 21,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cht1253.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HD26",
+      "name": "Iluminador Donut",
+      "page": 21,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hd26.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ICT1768",
+      "name": "Iluminador Horneado Chocolate",
+      "page": 22,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ict1768.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KCF1673",
+      "name": "Torre De Rubor, Iluminador Y Contorno Cat Face",
+      "page": 23,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kcf1673.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MT1665",
+      "name": "Torre Multi Iluminador Cat",
+      "page": 23,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mt1665.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PSC1251",
+      "name": "Rubor Pink Sweet Cotton",
+      "page": 25,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\psc1251.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BLT1686",
+      "name": "Rubor Doble Loop Blush",
+      "page": 26,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\blt1686.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "RTT2204",
+      "name": "Rubor X3 Primavera",
+      "page": 26,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\rtt2204.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ICU2172",
+      "name": "Iluminador Liquido Corporal Urban",
+      "page": 27,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\icu2172.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CBT1500",
+      "name": "Rubor Cat",
+      "page": 28,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cbt1500.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BL07",
+      "name": "Rubor En Barra",
+      "page": 28,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bl07.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SB18",
+      "name": "Rubor Líquido Dúo Safari",
+      "page": 29,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sb18.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "R1598",
+      "name": "Rubor En Barra Mila",
+      "page": 29,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\r1598.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SCR1892",
+      "name": "Contorno En Crema Star",
+      "page": 30,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\scr1892.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "RCS2205",
+      "name": "Rubor En Crema Star",
+      "page": 30,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\rcs2205.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "RBS1312",
+      "name": "Rubor En Crema Blush Stamp",
+      "page": 31,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\rbs1312.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ELR23",
+      "name": "Rubor Eclipse Lunar",
+      "page": 32,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\elr23.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HRC1326",
+      "name": "Rubor en Crema Happy",
+      "page": 34,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hrc1326.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "LOV3",
+      "name": "Rubor Garden of Love",
+      "page": 34,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\lov3.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "RTG1725",
+      "name": "Rubor Tutu Glow",
+      "page": 35,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\rtg1725.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KTT2249",
+      "name": "Kit Rubores Toy",
+      "page": 35,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ktt2249.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CCT1870",
+      "name": "Contorno En Barra De Chocolate",
+      "page": 36,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cct1870.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BMT1497",
+      "name": "Barra Multipropósi Mejill Labios",
+      "page": 36,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bmt1497.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BST1412",
+      "name": "Contorno Barra Bronzer Stick",
+      "page": 37,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bst1412.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "RD44",
+      "name": "Rubor Donut",
+      "page": 38,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\rd44.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "R1602",
+      "name": "Rubor Doble Mia",
+      "page": 38,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\r1602.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "RHT2202",
+      "name": "Rubor Baked Lucky",
+      "page": 39,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\rht2202.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ABT1742",
+      "name": "Rubor En Crema Aura",
+      "page": 40,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\abt1742.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CN09",
+      "name": "Fijador Trendy Cosmic Night",
+      "page": 40,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cn09.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SFC1760",
+      "name": "No olvides llevar",
+      "page": 40,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sfc1760.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "FDT2173",
+      "name": "Fijador Dreams 60 ml",
+      "page": 41,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\fdt2173.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BMP1920",
+      "name": "Kit X 3 Gloss Mood Pills",
+      "page": 43,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bmp1920.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "LVD1939",
+      "name": "Labial Velvet Dúo",
+      "page": 43,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\lvd1939.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "LL15",
+      "name": "Kit X 12 Delineadores Labios Love",
+      "page": 44,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ll15.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KFL2243",
+      "name": "Kit Labios Frutti Gloss",
+      "page": 46,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kfl2243.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BHC2273",
+      "name": "Brillo Llavero Hippie Chic",
+      "page": 46,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bhc2273.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BLS2258",
+      "name": "Brillo Lip Oil Sandia",
+      "page": 47,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bls2258.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KSB2285",
+      "name": "Kit Suero Y Brillo Petite",
+      "page": 48,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ksb2285.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BFG1776",
+      "name": "Kit X 8 Forever Gloss",
+      "page": 49,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bfg1776.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "VPG1966",
+      "name": "Voluminizador Plump Gloss",
+      "page": 50,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\vpg1966.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "LVT1589",
+      "name": "Labial Matte Teddy",
+      "page": 50,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\lvt1589.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KCL1674",
+      "name": "Torre Cat Para Labios Y Mejillas",
+      "page": 51,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kcl1674.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "LRV2051",
+      "name": "Labial Red Velvet",
+      "page": 51,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\lrv2051.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KLT2088",
+      "name": "Kit Labios Love Travel",
+      "page": 52,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\klt2088.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KCL2095",
+      "name": "Kit Crema Y Brillo Bright",
+      "page": 53,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kcl2095.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "STT1328",
+      "name": "Soda Tint",
+      "page": 54,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\stt1328.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "TST1368",
+      "name": "Tinta School",
+      "page": 54,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\tst1368.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DL07",
+      "name": "Tinta Y Brillo Doggie Lips",
+      "page": 55,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dl07.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "TGT1896",
+      "name": "Tinta Gloss Corazón",
+      "page": 55,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\tgt1896.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "7498B",
+      "name": "Tinta Heladito",
+      "page": 56,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\7498b.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "B177",
+      "name": "Brillo Retráctil",
+      "page": 58,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\b177.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SL13",
+      "name": "Brillo Voluminizador Smoothie",
+      "page": 58,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sl13.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "LT18",
+      "name": "Voluminizador De Labios Clásico",
+      "page": 59,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\lt18.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "EML1727",
+      "name": "Dúo Exfoliante + Mascarilla De Labios Pink Lemon",
+      "page": 59,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\eml1727.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HCG1283",
+      "name": "Brillo Candy Voluminizador en Barra",
+      "page": 60,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hcg1283.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BHG1893",
+      "name": "Brillo De Labios Hologlam",
+      "page": 61,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bhg1893.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BCC1366",
+      "name": "Brillo Cherry Color",
+      "page": 62,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bcc1366.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BCS1367",
+      "name": "Brillo Cherry Shine",
+      "page": 62,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bcs1367.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HS24",
+      "name": "Mascarilla Hidratante De Labios Strawberry",
+      "page": 63,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hs24.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BRK1406",
+      "name": "Brillo Retro Kisses",
+      "page": 63,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\brk1406.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HKC1550",
+      "name": "Brillo Lip Balm Kisses Rojo",
+      "page": 64,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hkc1550.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HKS1551",
+      "name": "Brillo Lip Balm Kisses Sin Color",
+      "page": 64,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hks1551.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KBT1484",
+      "name": "Kit de Labios Tiger Lips",
+      "page": 65,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kbt1484.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KBG1400",
+      "name": "Kit X 5 Garden Gloss",
+      "page": 66,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kbg1400.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "GCG2577",
+      "name": "Gloss Garden Café",
+      "page": 66,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\gcg2577.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BTT2221",
+      "name": "Brillo Trendy Boutique",
+      "page": 67,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\btt2221.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "7999A",
+      "name": "Tinta Frutas",
+      "page": 67,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\7999a.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BPT1963",
+      "name": "Lip Oil Tinta Pretty Things",
+      "page": 68,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bpt1963.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BPP1923",
+      "name": "Brillo Pool Party",
+      "page": 68,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bpp1923.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HMA1460",
+      "name": "Hidratante Mágico",
+      "page": 72,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hma1460.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HRT1461",
+      "name": "Brillo Reparador Rosas",
+      "page": 72,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hrt1461.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BFT1756",
+      "name": "Brillo Gloss Flash",
+      "page": 74,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bft1756.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HL15",
+      "name": "Brillo Mágico Honey",
+      "page": 75,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hl15.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BJL1726",
+      "name": "Brillo Just Lips Balm",
+      "page": 75,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bjl1726.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BDT1749",
+      "name": "Brillo Gloss Dash",
+      "page": 76,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bdt1749.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BMT1748",
+      "name": "Brillo Gloss Maddie",
+      "page": 77,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bmt1748.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BHB1744",
+      "name": "Brillo Gloss Happy Berry",
+      "page": 78,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bhb1744.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "RLG1846",
+      "name": "Brillo Red Lips Gloss",
+      "page": 78,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\rlg1846.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BKL1685",
+      "name": "Brillo Gloss Kiss Lips",
+      "page": 79,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bkl1685.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "TEB1745",
+      "name": "Tinta Con Escarcha Be Mine",
+      "page": 80,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\teb1745.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "LCL1577",
+      "name": "Labial Cat Lip",
+      "page": 80,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\lcl1577.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KSC1737",
+      "name": "Kit De Labios Sweet Cream",
+      "page": 81,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ksc1737.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DLT1270",
+      "name": "Delineador Labios Jumbo Cupcake",
+      "page": 82,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dlt1270.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KPG2087",
+      "name": "Lip Combo Pink And Gold",
+      "page": 82,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kpg2087.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KDL1765",
+      "name": "Kit De Labios Delicious Lips Crayola Y Delineador",
+      "page": 83,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kdl1765.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "GCD2283",
+      "name": "Betún de Cejas Doble Dreams",
+      "page": 85,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\gcd2283.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BBT1743",
+      "name": "Sombra Para Cejas Brow Blend",
+      "page": 86,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bbt1743.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BC04",
+      "name": "Coctel De Cejas Trendy Betún + Polvo",
+      "page": 87,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bc04.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KCB2158",
+      "name": "Kit De Cejas Bakery",
+      "page": 88,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kcb2158.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DT25",
+      "name": "Kit De Cejas",
+      "page": 89,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dt25.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CBG2167",
+      "name": "Gel Fijador de Cejas Glow",
+      "page": 90,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cbg2167.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "GF19",
+      "name": "Gel Fijador de Cejas",
+      "page": 90,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\gf19.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "1858",
+      "name": "Pestañina Para Cejas",
+      "page": 91,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\1858.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CE10",
+      "name": "Delineador Doble Cat Eye",
+      "page": 93,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ce10.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DBT2160",
+      "name": "Delineador Plumón Bee",
+      "page": 93,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dbt2160.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "AC30",
+      "name": "Delineador Plumón Artist Collection Negro",
+      "page": 94,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ac30.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CAM01",
+      "name": "Delineador En Plumón",
+      "page": 95,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cam01.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CAM02",
+      "name": "Delineador En Plumón Doble",
+      "page": 95,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cam02.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DCT2573",
+      "name": "Delineador Café Rainbow",
+      "page": 96,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dct2573.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DRT1329",
+      "name": "Delineador Glitter Rock",
+      "page": 98,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\drt1329.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CM05",
+      "name": "Pestañina Cat",
+      "page": 99,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cm05.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "GE18",
+      "name": "Kit Dúo Pestañina + Fortalecedora Gold Eyes",
+      "page": 99,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ge18.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BM07",
+      "name": "Pestañina Boom",
+      "page": 100,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bm07.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MP08",
+      "name": "Pestañina Poodle",
+      "page": 101,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mp08.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SL13",
+      "name": "Brillo Voluminizador Smoothie",
+      "page": 101,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sl13.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PSL1374",
+      "name": "Pestañina Súper Look",
+      "page": 101,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\psl1374.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ES0494",
+      "name": "Sombra Rainbow",
+      "page": 102,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\es0494.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SCT1767",
+      "name": "Sombra Chocolate",
+      "page": 102,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sct1767.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SRT1287",
+      "name": "Sombra Rock",
+      "page": 104,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\srt1287.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CPT1252",
+      "name": "Sombra Cloud Palette",
+      "page": 104,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cpt1252.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PK15",
+      "name": "Sombra Puppy Collection",
+      "page": 105,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\pk15.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SSB1867",
+      "name": "Sombra Safari Boom",
+      "page": 105,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ssb1867.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SB18",
+      "name": "Rubor Líquido Dúo Safari",
+      "page": 105,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sb18.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ST23",
+      "name": "Sombra Terra",
+      "page": 106,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\st23.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PD08",
+      "name": "Sombra Dreams Pro",
+      "page": 106,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\pd08.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "OT10",
+      "name": "Sombra Cartera Teddy",
+      "page": 107,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ot10.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MCR1861",
+      "name": "Sombra Color Rosa",
+      "page": 110,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mcr1861.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SRP1860",
+      "name": "Sombras Retro Phone",
+      "page": 111,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\srp1860.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SST1879",
+      "name": "Sombra Sunset",
+      "page": 111,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sst1879.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SBT1880",
+      "name": "Sombra Blossom",
+      "page": 113,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sbt1880.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SCT1471",
+      "name": "Sombra Glitter Circus",
+      "page": 115,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sct1471.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SMT1657",
+      "name": "Sombra Meow",
+      "page": 116,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\smt1657.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SHT1310",
+      "name": "Sombra Hollywood",
+      "page": 116,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sht1310.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SSC1799",
+      "name": "Sombras Líquidas Space Cosmic",
+      "page": 118,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ssc1799.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SCT1327",
+      "name": "Sombra Cookies 1",
+      "page": 119,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sct1327.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SLU1936",
+      "name": "Sombras En Barra Y Líquida Level Up",
+      "page": 119,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\slu1936.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KPB1850",
+      "name": "Kit Maquilla Niñas Party Balloons",
+      "page": 121,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kpb1850.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SNP1849",
+      "name": "Sombra Para Niñas Princesa",
+      "page": 122,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\snp1849.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "NKB1929",
+      "name": "Kit Niñas Splash Y Cremas Ballet",
+      "page": 122,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\nkb1929.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SNH1845",
+      "name": "Sombra Para Niñas Celular",
+      "page": 123,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\snh1845.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KMA2156",
+      "name": "Kit Niñas Magia",
+      "page": 124,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kma2156.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KMW2155",
+      "name": "Kit Niñas Osito",
+      "page": 124,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kmw2155.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KBT2157",
+      "name": "Kit Niñas Tutti Frutti",
+      "page": 125,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kbt2157.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2079",
+      "name": "Sombra Intensamente",
+      "page": 127,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2079.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2074",
+      "name": "Rubor Verguenza",
+      "page": 128,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2074.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2076",
+      "name": "Iluminador Alegría",
+      "page": 128,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2076.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2098",
+      "name": "Kit Labios Furia",
+      "page": 129,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2098.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2082",
+      "name": "Tote Bag Intensamente",
+      "page": 132,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2082.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2083",
+      "name": "Kit Brochas X 9 Intensamente",
+      "page": 133,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2083.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2073",
+      "name": "Exfoliante Corporal Stitch",
+      "page": 139,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2073.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2165",
+      "name": "Tarjetero Monedero Stitch",
+      "page": 140,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2165.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2081",
+      "name": "Kit X 2 Delineadores Stitch",
+      "page": 140,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2081.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2080",
+      "name": "Kit De Labios Stitch",
+      "page": 141,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2080.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2075",
+      "name": "Brillo Holográficos Stitch",
+      "page": 141,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2075.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2298",
+      "name": "Kit Maleta Corazón Stitch",
+      "page": 142,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2298.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2299",
+      "name": "Pulsera Plateada Stitch",
+      "page": 142,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2299.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2300",
+      "name": "Collar Plateado Stitch",
+      "page": 143,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2300.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2297",
+      "name": "Kit Maleta Rapunzel",
+      "page": 143,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2297.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2289",
+      "name": "Collar Dorado Princesas",
+      "page": 144,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2289.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2291",
+      "name": "Kit Hebillas Princesas",
+      "page": 146,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2291.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2292",
+      "name": "Pulsera Plateada Princesa",
+      "page": 146,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2292.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2293",
+      "name": "Pulseras Intercambiables Princesas",
+      "page": 147,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2293.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2294",
+      "name": "Kit Moño Y Hebilla Princesas",
+      "page": 147,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2294.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2188",
+      "name": "Polvos Sueltos y Compactos Jack",
+      "page": 150,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2188.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2159",
+      "name": "Tinta Gloss Jack",
+      "page": 151,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2159.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2105",
+      "name": "Brillo Twist Villanos",
+      "page": 153,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2105.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2100",
+      "name": "Contorno Rubor Villanos",
+      "page": 156,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2100.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DY2102",
+      "name": "Kit De Cejas Villanos",
+      "page": 157,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dy2102.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MT2403",
+      "name": "Kit Lip Balm X3 Polly Pocket",
+      "page": 163,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mt2403.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MT2404",
+      "name": "Kit De Labios Polly Pocket",
+      "page": 163,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mt2404.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MT2393",
+      "name": "Kit Brillo Labial + Mascarilla Barbie Malibu",
+      "page": 164,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mt2393.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MT2260",
+      "name": "Tinta Rubor Barbie Malibu",
+      "page": 165,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mt2260.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MT2381",
+      "name": "Rubor En Barra Barbie Vaquera",
+      "page": 166,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mt2381.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MT2379",
+      "name": "Pestañina Barbie Vaquera",
+      "page": 167,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mt2379.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MT2382",
+      "name": "Gloss Barbie Vaquera",
+      "page": 167,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mt2382.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MT2380",
+      "name": "Gel Fijador de Cejas Barbie Vaquera",
+      "page": 168,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mt2380.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MTT2220",
+      "name": "Rubor Dúo Barbie Core",
+      "page": 168,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mtt2220.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MTT2383",
+      "name": "Kit Triple Barbie Core",
+      "page": 169,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mtt2383.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CGA1800",
+      "name": "¡Nuestro Gel de Aloe es el mismo de siempre Gel Aloe Vera Fresh Aloe",
+      "page": 171,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cga1800.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HC16",
+      "name": "Mascarilla Stickers Para Acné Happy Clean",
+      "page": 172,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hc16.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DTR1753",
+      "name": "Doypack Tónico Rosas 235ml Mediano",
+      "page": 172,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dtr1753.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MAT1314",
+      "name": "Mascarilla Aloe Mask",
+      "page": 173,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mat1314.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "EM15",
+      "name": "Mascarilla De Hidrogel Para Ojos Eye Mask",
+      "page": 173,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\em15.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PMT1371",
+      "name": "Primer Menta",
+      "page": 174,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\pmt1371.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PM02",
+      "name": "Primer Masmelo",
+      "page": 174,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\pm02.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KCT2246",
+      "name": "Kit Carrusel Primer Brillo",
+      "page": 175,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kct2246.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PAT1894",
+      "name": "Primer Aloha",
+      "page": 176,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\pat1894.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SFR1279",
+      "name": "Kit Primer y Fijador Rose",
+      "page": 177,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sfr1279.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BLP1370",
+      "name": "Primer Basic Look",
+      "page": 177,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\blp1370.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "50CRN1224",
+      "name": "QUE NECESITA EN LA NOCHE! Crema Facial",
+      "page": 178,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\50crn1224.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ADT862",
+      "name": "Aceite Desmaquillante",
+      "page": 179,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\adt862.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DAD1276",
+      "name": "No olvides llevar",
+      "page": 179,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dad1276.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DBT1926",
+      "name": "Desmaquillante Bifásico",
+      "page": 179,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dbt1926.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SET2168",
+      "name": "Serum Facial Encanto",
+      "page": 180,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\set2168.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SA11",
+      "name": "Serúm Hidratante",
+      "page": 180,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sa11.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PSF1759",
+      "name": "Protector Solar Facial 115ml",
+      "page": 181,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\psf1759.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SA11",
+      "name": "Serúm Hidratante",
+      "page": 181,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sa11.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SHB889",
+      "name": "Suero Hidratante Bioretinol",
+      "page": 183,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\shb889.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SHB1174",
+      "name": "Sachet Suero Hidratante Bioretinol",
+      "page": 183,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\shb1174.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SDN1155",
+      "name": "Sachet Suero Detox Niacinamida +Zinc",
+      "page": 184,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sdn1155.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SVA1330",
+      "name": "Suero de Vitamina C + Ácido Azelaico",
+      "page": 185,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sva1330.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SSV1505",
+      "name": "Sachet Suero Vitamina C + Ácido Azelaico",
+      "page": 185,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ssv1505.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "JDP1321",
+      "name": "Colapsible Jabón Detox",
+      "page": 186,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\jdp1321.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "JDG1320",
+      "name": "Colapsible Jabón Detox 110ml",
+      "page": 187,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\jdg1320.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SJD1507",
+      "name": "Doypack Jabón Detox 150ml",
+      "page": 187,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sjd1507.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CMF2399",
+      "name": "Crema Mantequilla Fresh",
+      "page": 189,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cmf2399.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CMW2401",
+      "name": "Crema Mantequilla Watermelon",
+      "page": 189,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cmw2401.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "DPT1778",
+      "name": "Depilador Individual",
+      "page": 194,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dpt1778.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SCT1775",
+      "name": "Sacapuntas Dúo Cosmético",
+      "page": 194,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sct1775.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CR02",
+      "name": "Lápiz De Silicona Para Pegar Piedritas",
+      "page": 195,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cr02.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CR20",
+      "name": "Kit Piedritas Crystal",
+      "page": 195,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cr20.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BMT2271",
+      "name": "Borrador De Maquillaje",
+      "page": 196,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bmt2271.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PPT2510",
+      "name": "Planeador Semanal",
+      "page": 197,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ppt2510.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "LAT2511",
+      "name": "Block de Notas",
+      "page": 197,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\lat2511.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MGT922",
+      "name": "Maleta Gigante de Maquillaje",
+      "page": 201,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mgt922.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CD01",
+      "name": "Cosmetiquera Pastel",
+      "page": 202,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cd01.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CCT1791",
+      "name": "Cosmetiquera Cuerina",
+      "page": 202,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cct1791.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BGT1712",
+      "name": "Bolsa Empaque Morada Grande",
+      "page": 203,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bgt1712.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CD07",
+      "name": "Cosmetiquera Tela Negra",
+      "page": 204,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cd07.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "MF14",
+      "name": "Toalla Mágica Desmaquillante",
+      "page": 204,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\mf14.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "OM20",
+      "name": "¡Mantén el tocador organizado! Organizador",
+      "page": 205,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\om20.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ORR2181",
+      "name": "Organizador Retro Rock",
+      "page": 205,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\orr2181.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PEGA15",
+      "name": "Pegante de Pestañas Doble",
+      "page": 206,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\pega15.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "SPT1423",
+      "name": "Sticker de Perlitas",
+      "page": 207,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\spt1423.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PFS1593",
+      "name": "Papeleta Anti Grasa",
+      "page": 208,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\pfs1593.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PHT1588",
+      "name": "Papeleta Anti Grasa Hombre",
+      "page": 208,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\pht1588.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "PSL2133",
+      "name": "Papeleta Sky Lover",
+      "page": 208,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\psl2133.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "ET01",
+      "name": "¡Dale más protagonismo a tu mirada! Encrespador Oro Rosa",
+      "page": 209,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\et01.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HCM2330",
+      "name": "Hairclips Mini X 8",
+      "page": 210,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hcm2330.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HCT2329",
+      "name": "Kit X2 Hair Clip Rectangular",
+      "page": 210,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hct2329.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HMM2328",
+      "name": "¡Dale un toquesofisticado a tu peinado Hair Clip Mariposa Mediano",
+      "page": 211,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hmm2328.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "HMG2327",
+      "name": "Hair Clip Mariposa Grande",
+      "page": 211,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\hmg2327.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CET1985",
+      "name": "Cepillo Espiral",
+      "page": 212,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cet1985.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KFP2288",
+      "name": "Kit Pelo Fabulosa",
+      "page": 212,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kfp2288.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CST1977",
+      "name": "Cepillo Snake",
+      "page": 213,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cst1977.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "CDT1857",
+      "name": "Cepillo Anti Frizz Rosado",
+      "page": 213,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cdt1857.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BMT1713",
+      "name": "Bolsa Empaque Rosada Mediana",
+      "page": 214,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bmt1713.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P105",
+      "name": "Brocha Individual Contorno",
+      "page": 214,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p105.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BDP1050",
+      "name": "Bolsa Kraft",
+      "page": 214,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bdp1050.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BRP1746",
+      "name": "Bolsa Papel Morada Pequeña",
+      "page": 215,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\brp1746.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BRM1747",
+      "name": "Bolsa Papel Mediana Rosada",
+      "page": 215,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\brm1747.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BT010",
+      "name": "Brocha Doble Cejas Cepillo",
+      "page": 217,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bt010.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BT06",
+      "name": "Kit Brocha Ojos x 3 Genérica",
+      "page": 218,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bt06.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KBC2163",
+      "name": "Kit Brocha Cejas Orgánicas X 2",
+      "page": 218,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kbc2163.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P115",
+      "name": "Brocha Individual Difuminadora Grande",
+      "page": 219,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p115.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P201",
+      "name": "Brocha Individual Difuminadora",
+      "page": 219,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p201.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P104",
+      "name": "Brocha Individual Base Kabuki",
+      "page": 220,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p104.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P101",
+      "name": "Brocha Individual POLVO GIGANTE",
+      "page": 220,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p101.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P106",
+      "name": "Brocha Individual Contorno",
+      "page": 221,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p106.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P107",
+      "name": "Brocha Individual Rubor",
+      "page": 221,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p107.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P109",
+      "name": "Brocha Individual Kabuki Pequeña",
+      "page": 222,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p109.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P111",
+      "name": "Brocha Individual Kabuki Corrector",
+      "page": 222,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p111.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P102",
+      "name": "Brocha Individual Polvo Detalle",
+      "page": 223,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p102.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P103",
+      "name": "Brocha Individual Base",
+      "page": 223,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p103.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P105",
+      "name": "Brocha Individual Contorno",
+      "page": 223,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p105.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P208",
+      "name": "Brocha Individual Cejas",
+      "page": 224,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p208.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P210",
+      "name": "Brocha Individual Corrector Mini",
+      "page": 225,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p210.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P211",
+      "name": "Brocha Individual Kabuki Mini",
+      "page": 225,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p211.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P212",
+      "name": "Brocha CORRECTOR MINI",
+      "page": 225,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p212.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P216",
+      "name": "Brocha Individual Multiusos",
+      "page": 226,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p216.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "P220",
+      "name": "Brocha Individual Doble Piel",
+      "page": 227,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p220.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "EBS1661",
+      "name": "Kit Brochas Basic Everyday Blush",
+      "page": 228,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ebs1661.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BCT1807",
+      "name": "Kit Brochas Cristal",
+      "page": 229,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bct1807.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KCM1729",
+      "name": "Kit Brocha Mini Café",
+      "page": 230,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kcm1729.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KM10",
+      "name": "Kit Brochas Mini Rosado",
+      "page": 233,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\km10.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KL11",
+      "name": "Kit Brochas Mármol Luxury",
+      "page": 236,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kl11.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KNC1728",
+      "name": "Kit Brochas Clásico Negro",
+      "page": 237,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\knc1728.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BRT2287",
+      "name": "Kit Brochas X 10 Rosa Terciopelo",
+      "page": 238,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\brt2287.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "EPT2411",
+      "name": "Esponja Panda",
+      "page": 240,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\ept2411.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BTT2162",
+      "name": "Borla Triangular Morada",
+      "page": 241,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\btt2162.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "KBC2097",
+      "name": "Kit Borlas Cotton",
+      "page": 241,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\kbc2097.png",
+      "mode": "ocr"
+    },
+    {
+      "reference": "BAQ564",
+      "name": "Base Aqua Cobertura Media",
+      "page": 4,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\baq564.png",
+      "mode": "manual_override"
+    },
+    {
+      "reference": "BQF2053",
+      "name": "Base Queen Face Tint",
+      "page": 14,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\bqf2053.png",
+      "mode": "manual_override"
+    },
+    {
+      "reference": "CQT1981",
+      "name": "Contorno En Crema Queen",
+      "page": 27,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cqt1981.png",
+      "mode": "manual_override"
+    },
+    {
+      "reference": "LLI1735",
+      "name": "Delineador Labios Individual Love",
+      "page": 45,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\lli1735.png",
+      "mode": "manual_override"
+    },
+    {
+      "reference": "TPI1414",
+      "name": "Tinta Ice Paleta",
+      "page": 56,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\tpi1414.png",
+      "mode": "manual_override"
+    },
+    {
+      "reference": "SRO1919",
+      "name": "Sombra Roll On",
+      "page": 118,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\sro1919.png",
+      "mode": "manual_override"
+    },
+    {
+      "reference": "PQT1980",
+      "name": "Primer Queen",
+      "page": 175,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\pqt1980.png",
+      "mode": "manual_override"
+    },
+    {
+      "reference": "DOX888",
+      "name": "Suero Détox Niacinamida + Zinc",
+      "page": 184,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\dox888.png",
+      "mode": "manual_override"
+    },
+    {
+      "reference": "CMO2402",
+      "name": "Crema Mantequilla Orange",
+      "page": 189,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\cmo2402.png",
+      "mode": "manual_override"
+    },
+    {
+      "reference": "OMT1667",
+      "name": "CosmetiqueraViajera Rosada",
+      "page": 199,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\omt1667.png",
+      "mode": "manual_override"
+    },
+    {
+      "reference": "P100",
+      "name": "Brocha Individual Polvo Gigante",
+      "page": 220,
+      "target": "C:\\Users\\juanc\\Documents\\New project\\static\\catalog\\p100.png",
+      "mode": "manual_override"
+    }
+  ],
+  "unmatched": [],
+  "pages": [
+    {
+      "page": 3,
+      "references": [
+        "CRG1420"
+      ]
+    },
+    {
+      "page": 5,
+      "references": [
+        "BAT2272"
+      ]
+    },
+    {
+      "page": 7,
+      "references": [
+        "SP98"
+      ]
+    },
+    {
+      "page": 8,
+      "references": [
+        "CTT2229"
+      ]
+    },
+    {
+      "page": 10,
+      "references": [
+        "BF23",
+        "PSB1688"
+      ]
+    },
+    {
+      "page": 11,
+      "references": [
+        "BBS2169"
+      ]
+    },
+    {
+      "page": 12,
+      "references": [
+        "PCF2054"
+      ]
+    },
+    {
+      "page": 13,
+      "references": [
+        "PST1590"
+      ]
+    },
+    {
+      "page": 14,
+      "references": [
+        "BMT1675"
+      ]
+    },
+    {
+      "page": 16,
+      "references": [
+        "ID02",
+        "ILK2286"
+      ]
+    },
+    {
+      "page": 18,
+      "references": [
+        "IPU1654"
+      ]
+    },
+    {
+      "page": 19,
+      "references": [
+        "PH03",
+        "PHM2166"
+      ]
+    },
+    {
+      "page": 20,
+      "references": [
+        "SLB1927",
+        "ILS1473"
+      ]
+    },
+    {
+      "page": 21,
+      "references": [
+        "CHT1253",
+        "HD26"
+      ]
+    },
+    {
+      "page": 22,
+      "references": [
+        "ICT1768"
+      ]
+    },
+    {
+      "page": 23,
+      "references": [
+        "KCF1673",
+        "MT1665"
+      ]
+    },
+    {
+      "page": 25,
+      "references": [
+        "PSC1251"
+      ]
+    },
+    {
+      "page": 26,
+      "references": [
+        "BLT1686",
+        "RTT2204"
+      ]
+    },
+    {
+      "page": 27,
+      "references": [
+        "ICU2172"
+      ]
+    },
+    {
+      "page": 28,
+      "references": [
+        "CBT1500",
+        "BL07"
+      ]
+    },
+    {
+      "page": 29,
+      "references": [
+        "SB18",
+        "R1598"
+      ]
+    },
+    {
+      "page": 30,
+      "references": [
+        "SCR1892",
+        "RCS2205"
+      ]
+    },
+    {
+      "page": 31,
+      "references": [
+        "RBS1312"
+      ]
+    },
+    {
+      "page": 32,
+      "references": [
+        "ELR23"
+      ]
+    },
+    {
+      "page": 34,
+      "references": [
+        "HRC1326",
+        "LOV3"
+      ]
+    },
+    {
+      "page": 35,
+      "references": [
+        "RTG1725",
+        "KTT2249"
+      ]
+    },
+    {
+      "page": 36,
+      "references": [
+        "CCT1870",
+        "BMT1497"
+      ]
+    },
+    {
+      "page": 37,
+      "references": [
+        "BST1412"
+      ]
+    },
+    {
+      "page": 38,
+      "references": [
+        "RD44",
+        "R1602"
+      ]
+    },
+    {
+      "page": 39,
+      "references": [
+        "RHT2202"
+      ]
+    },
+    {
+      "page": 40,
+      "references": [
+        "ABT1742",
+        "CN09",
+        "SFC1760"
+      ]
+    },
+    {
+      "page": 41,
+      "references": [
+        "FDT2173"
+      ]
+    },
+    {
+      "page": 43,
+      "references": [
+        "BMP1920",
+        "LVD1939"
+      ]
+    },
+    {
+      "page": 44,
+      "references": [
+        "LL15"
+      ]
+    },
+    {
+      "page": 46,
+      "references": [
+        "KFL2243",
+        "BHC2273"
+      ]
+    },
+    {
+      "page": 47,
+      "references": [
+        "BLS2258"
+      ]
+    },
+    {
+      "page": 48,
+      "references": [
+        "KSB2285"
+      ]
+    },
+    {
+      "page": 49,
+      "references": [
+        "BFG1776"
+      ]
+    },
+    {
+      "page": 50,
+      "references": [
+        "VPG1966",
+        "LVT1589"
+      ]
+    },
+    {
+      "page": 51,
+      "references": [
+        "KCL1674",
+        "LRV2051"
+      ]
+    },
+    {
+      "page": 52,
+      "references": [
+        "KLT2088"
+      ]
+    },
+    {
+      "page": 53,
+      "references": [
+        "KCL2095"
+      ]
+    },
+    {
+      "page": 54,
+      "references": [
+        "STT1328",
+        "TST1368"
+      ]
+    },
+    {
+      "page": 55,
+      "references": [
+        "DL07",
+        "TGT1896"
+      ]
+    },
+    {
+      "page": 56,
+      "references": [
+        "7498B"
+      ]
+    },
+    {
+      "page": 58,
+      "references": [
+        "B177",
+        "SL13"
+      ]
+    },
+    {
+      "page": 59,
+      "references": [
+        "LT18",
+        "EML1727"
+      ]
+    },
+    {
+      "page": 60,
+      "references": [
+        "HCG1283"
+      ]
+    },
+    {
+      "page": 61,
+      "references": [
+        "BHG1893"
+      ]
+    },
+    {
+      "page": 62,
+      "references": [
+        "BCC1366",
+        "BCS1367"
+      ]
+    },
+    {
+      "page": 63,
+      "references": [
+        "HS24",
+        "BRK1406"
+      ]
+    },
+    {
+      "page": 64,
+      "references": [
+        "HKC1550",
+        "HKS1551"
+      ]
+    },
+    {
+      "page": 65,
+      "references": [
+        "KBT1484"
+      ]
+    },
+    {
+      "page": 66,
+      "references": [
+        "KBG1400",
+        "GCG2577"
+      ]
+    },
+    {
+      "page": 67,
+      "references": [
+        "BTT2221",
+        "7999A"
+      ]
+    },
+    {
+      "page": 68,
+      "references": [
+        "BPT1963",
+        "BPP1923"
+      ]
+    },
+    {
+      "page": 72,
+      "references": [
+        "HMA1460",
+        "HRT1461"
+      ]
+    },
+    {
+      "page": 74,
+      "references": [
+        "BFT1756"
+      ]
+    },
+    {
+      "page": 75,
+      "references": [
+        "HL15",
+        "BJL1726"
+      ]
+    },
+    {
+      "page": 76,
+      "references": [
+        "BDT1749"
+      ]
+    },
+    {
+      "page": 77,
+      "references": [
+        "BMT1748"
+      ]
+    },
+    {
+      "page": 78,
+      "references": [
+        "BHB1744",
+        "RLG1846"
+      ]
+    },
+    {
+      "page": 79,
+      "references": [
+        "BKL1685"
+      ]
+    },
+    {
+      "page": 80,
+      "references": [
+        "TEB1745",
+        "LCL1577"
+      ]
+    },
+    {
+      "page": 81,
+      "references": [
+        "KSC1737"
+      ]
+    },
+    {
+      "page": 82,
+      "references": [
+        "DLT1270",
+        "KPG2087"
+      ]
+    },
+    {
+      "page": 83,
+      "references": [
+        "KDL1765"
+      ]
+    },
+    {
+      "page": 85,
+      "references": [
+        "GCD2283"
+      ]
+    },
+    {
+      "page": 86,
+      "references": [
+        "BBT1743"
+      ]
+    },
+    {
+      "page": 87,
+      "references": [
+        "BC04"
+      ]
+    },
+    {
+      "page": 88,
+      "references": [
+        "KCB2158"
+      ]
+    },
+    {
+      "page": 89,
+      "references": [
+        "DT25"
+      ]
+    },
+    {
+      "page": 90,
+      "references": [
+        "CBG2167",
+        "GF19"
+      ]
+    },
+    {
+      "page": 91,
+      "references": [
+        "1858"
+      ]
+    },
+    {
+      "page": 93,
+      "references": [
+        "CE10",
+        "DBT2160"
+      ]
+    },
+    {
+      "page": 94,
+      "references": [
+        "AC30"
+      ]
+    },
+    {
+      "page": 95,
+      "references": [
+        "CAM01",
+        "CAM02"
+      ]
+    },
+    {
+      "page": 96,
+      "references": [
+        "DCT2573"
+      ]
+    },
+    {
+      "page": 98,
+      "references": [
+        "DRT1329"
+      ]
+    },
+    {
+      "page": 99,
+      "references": [
+        "CM05",
+        "GE18"
+      ]
+    },
+    {
+      "page": 100,
+      "references": [
+        "BM07"
+      ]
+    },
+    {
+      "page": 101,
+      "references": [
+        "MP08",
+        "SL13",
+        "PSL1374"
+      ]
+    },
+    {
+      "page": 102,
+      "references": [
+        "ES0494",
+        "SCT1767"
+      ]
+    },
+    {
+      "page": 104,
+      "references": [
+        "SRT1287",
+        "CPT1252"
+      ]
+    },
+    {
+      "page": 105,
+      "references": [
+        "PK15",
+        "SSB1867",
+        "SB18"
+      ]
+    },
+    {
+      "page": 106,
+      "references": [
+        "ST23",
+        "PD08"
+      ]
+    },
+    {
+      "page": 107,
+      "references": [
+        "OT10"
+      ]
+    },
+    {
+      "page": 110,
+      "references": [
+        "MCR1861"
+      ]
+    },
+    {
+      "page": 111,
+      "references": [
+        "SRP1860",
+        "SST1879"
+      ]
+    },
+    {
+      "page": 113,
+      "references": [
+        "SBT1880"
+      ]
+    },
+    {
+      "page": 115,
+      "references": [
+        "SCT1471"
+      ]
+    },
+    {
+      "page": 116,
+      "references": [
+        "SMT1657",
+        "SHT1310"
+      ]
+    },
+    {
+      "page": 118,
+      "references": [
+        "SSC1799"
+      ]
+    },
+    {
+      "page": 119,
+      "references": [
+        "SCT1327",
+        "SLU1936"
+      ]
+    },
+    {
+      "page": 121,
+      "references": [
+        "KPB1850"
+      ]
+    },
+    {
+      "page": 122,
+      "references": [
+        "SNP1849",
+        "NKB1929"
+      ]
+    },
+    {
+      "page": 123,
+      "references": [
+        "SNH1845"
+      ]
+    },
+    {
+      "page": 124,
+      "references": [
+        "KMA2156",
+        "KMW2155"
+      ]
+    },
+    {
+      "page": 125,
+      "references": [
+        "KBT2157"
+      ]
+    },
+    {
+      "page": 127,
+      "references": [
+        "DY2079"
+      ]
+    },
+    {
+      "page": 128,
+      "references": [
+        "DY2074",
+        "DY2076"
+      ]
+    },
+    {
+      "page": 129,
+      "references": [
+        "DY2098"
+      ]
+    },
+    {
+      "page": 132,
+      "references": [
+        "DY2082"
+      ]
+    },
+    {
+      "page": 133,
+      "references": [
+        "DY2083"
+      ]
+    },
+    {
+      "page": 139,
+      "references": [
+        "DY2073"
+      ]
+    },
+    {
+      "page": 140,
+      "references": [
+        "DY2165",
+        "DY2081"
+      ]
+    },
+    {
+      "page": 141,
+      "references": [
+        "DY2080",
+        "DY2075"
+      ]
+    },
+    {
+      "page": 142,
+      "references": [
+        "DY2298",
+        "DY2299"
+      ]
+    },
+    {
+      "page": 143,
+      "references": [
+        "DY2300",
+        "DY2297"
+      ]
+    },
+    {
+      "page": 144,
+      "references": [
+        "DY2289"
+      ]
+    },
+    {
+      "page": 146,
+      "references": [
+        "DY2291",
+        "DY2292"
+      ]
+    },
+    {
+      "page": 147,
+      "references": [
+        "DY2293",
+        "DY2294"
+      ]
+    },
+    {
+      "page": 150,
+      "references": [
+        "DY2188"
+      ]
+    },
+    {
+      "page": 151,
+      "references": [
+        "DY2159"
+      ]
+    },
+    {
+      "page": 153,
+      "references": [
+        "DY2105"
+      ]
+    },
+    {
+      "page": 156,
+      "references": [
+        "DY2100"
+      ]
+    },
+    {
+      "page": 157,
+      "references": [
+        "DY2102"
+      ]
+    },
+    {
+      "page": 163,
+      "references": [
+        "MT2403",
+        "MT2404"
+      ]
+    },
+    {
+      "page": 164,
+      "references": [
+        "MT2393"
+      ]
+    },
+    {
+      "page": 165,
+      "references": [
+        "MT2260"
+      ]
+    },
+    {
+      "page": 166,
+      "references": [
+        "MT2381"
+      ]
+    },
+    {
+      "page": 167,
+      "references": [
+        "MT2379",
+        "MT2382"
+      ]
+    },
+    {
+      "page": 168,
+      "references": [
+        "MT2380",
+        "MTT2220"
+      ]
+    },
+    {
+      "page": 169,
+      "references": [
+        "MTT2383"
+      ]
+    },
+    {
+      "page": 171,
+      "references": [
+        "CGA1800"
+      ]
+    },
+    {
+      "page": 172,
+      "references": [
+        "HC16",
+        "DTR1753"
+      ]
+    },
+    {
+      "page": 173,
+      "references": [
+        "MAT1314",
+        "EM15"
+      ]
+    },
+    {
+      "page": 174,
+      "references": [
+        "PMT1371",
+        "PM02"
+      ]
+    },
+    {
+      "page": 175,
+      "references": [
+        "KCT2246"
+      ]
+    },
+    {
+      "page": 176,
+      "references": [
+        "PAT1894"
+      ]
+    },
+    {
+      "page": 177,
+      "references": [
+        "SFR1279",
+        "BLP1370"
+      ]
+    },
+    {
+      "page": 178,
+      "references": [
+        "50CRN1224"
+      ]
+    },
+    {
+      "page": 179,
+      "references": [
+        "ADT862",
+        "DAD1276",
+        "DBT1926"
+      ]
+    },
+    {
+      "page": 180,
+      "references": [
+        "SET2168",
+        "SA11"
+      ]
+    },
+    {
+      "page": 181,
+      "references": [
+        "PSF1759",
+        "SA11"
+      ]
+    },
+    {
+      "page": 183,
+      "references": [
+        "SHB889",
+        "SHB1174"
+      ]
+    },
+    {
+      "page": 184,
+      "references": [
+        "SDN1155"
+      ]
+    },
+    {
+      "page": 185,
+      "references": [
+        "SVA1330",
+        "SSV1505"
+      ]
+    },
+    {
+      "page": 186,
+      "references": [
+        "JDP1321"
+      ]
+    },
+    {
+      "page": 187,
+      "references": [
+        "JDG1320",
+        "SJD1507"
+      ]
+    },
+    {
+      "page": 189,
+      "references": [
+        "CMF2399",
+        "CMW2401"
+      ]
+    },
+    {
+      "page": 194,
+      "references": [
+        "DPT1778",
+        "SCT1775"
+      ]
+    },
+    {
+      "page": 195,
+      "references": [
+        "CR02",
+        "CR20"
+      ]
+    },
+    {
+      "page": 196,
+      "references": [
+        "BMT2271"
+      ]
+    },
+    {
+      "page": 197,
+      "references": [
+        "PPT2510",
+        "LAT2511"
+      ]
+    },
+    {
+      "page": 201,
+      "references": [
+        "MGT922"
+      ]
+    },
+    {
+      "page": 202,
+      "references": [
+        "CD01",
+        "CCT1791"
+      ]
+    },
+    {
+      "page": 203,
+      "references": [
+        "BGT1712"
+      ]
+    },
+    {
+      "page": 204,
+      "references": [
+        "CD07",
+        "MF14"
+      ]
+    },
+    {
+      "page": 205,
+      "references": [
+        "OM20",
+        "ORR2181"
+      ]
+    },
+    {
+      "page": 206,
+      "references": [
+        "PEGA15"
+      ]
+    },
+    {
+      "page": 207,
+      "references": [
+        "SPT1423"
+      ]
+    },
+    {
+      "page": 208,
+      "references": [
+        "PFS1593",
+        "PHT1588",
+        "PSL2133"
+      ]
+    },
+    {
+      "page": 209,
+      "references": [
+        "ET01"
+      ]
+    },
+    {
+      "page": 210,
+      "references": [
+        "HCM2330",
+        "HCT2329"
+      ]
+    },
+    {
+      "page": 211,
+      "references": [
+        "HMM2328",
+        "HMG2327"
+      ]
+    },
+    {
+      "page": 212,
+      "references": [
+        "CET1985",
+        "KFP2288"
+      ]
+    },
+    {
+      "page": 213,
+      "references": [
+        "CST1977",
+        "CDT1857"
+      ]
+    },
+    {
+      "page": 214,
+      "references": [
+        "BMT1713",
+        "P105",
+        "BDP1050"
+      ]
+    },
+    {
+      "page": 215,
+      "references": [
+        "BRP1746",
+        "BRM1747"
+      ]
+    },
+    {
+      "page": 217,
+      "references": [
+        "BT010"
+      ]
+    },
+    {
+      "page": 218,
+      "references": [
+        "BT06",
+        "KBC2163"
+      ]
+    },
+    {
+      "page": 219,
+      "references": [
+        "P115",
+        "P201"
+      ]
+    },
+    {
+      "page": 220,
+      "references": [
+        "P104",
+        "P101"
+      ]
+    },
+    {
+      "page": 221,
+      "references": [
+        "P106",
+        "P107"
+      ]
+    },
+    {
+      "page": 222,
+      "references": [
+        "P109",
+        "P111"
+      ]
+    },
+    {
+      "page": 223,
+      "references": [
+        "P102",
+        "P103",
+        "P105"
+      ]
+    },
+    {
+      "page": 224,
+      "references": [
+        "P208"
+      ]
+    },
+    {
+      "page": 225,
+      "references": [
+        "P210",
+        "P211",
+        "P212"
+      ]
+    },
+    {
+      "page": 226,
+      "references": [
+        "P216"
+      ]
+    },
+    {
+      "page": 227,
+      "references": [
+        "P220"
+      ]
+    },
+    {
+      "page": 228,
+      "references": [
+        "EBS1661"
+      ]
+    },
+    {
+      "page": 229,
+      "references": [
+        "BCT1807"
+      ]
+    },
+    {
+      "page": 230,
+      "references": [
+        "KCM1729"
+      ]
+    },
+    {
+      "page": 233,
+      "references": [
+        "KM10"
+      ]
+    },
+    {
+      "page": 236,
+      "references": [
+        "KL11"
+      ]
+    },
+    {
+      "page": 237,
+      "references": [
+        "KNC1728"
+      ]
+    },
+    {
+      "page": 238,
+      "references": [
+        "BRT2287"
+      ]
+    },
+    {
+      "page": 240,
+      "references": [
+        "EPT2411"
+      ]
+    },
+    {
+      "page": 241,
+      "references": [
+        "BTT2162",
+        "KBC2097"
+      ]
+    }
+  ]
+}

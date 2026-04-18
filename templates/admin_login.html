@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<main class="admin-auth">
+  <section class="auth-card">
+    <span class="eyebrow">Acceso administrador</span>
+    <h1>Controla precios, promociones y stock.</h1>
+    <form id="loginForm" class="login-form">
+      <input name="username" placeholder="Usuario" required>
+      <input name="password" type="password" placeholder="Contraseña" required>
+      <button class="button primary" type="submit">Ingresar</button>
+    </form>
+    <p id="loginMessage"></p>
+  </section>
+</main>
+<script>
+  const form = document.getElementById('loginForm');
+  const message = document.getElementById('loginMessage');
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const payload = Object.fromEntries(new FormData(form).entries());
+    const response = await fetch('/api/admin/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    const data = await response.json();
+    if (!response.ok) {
+      message.textContent = data.message || 'No fue posible iniciar sesión.';
+      return;
+    }
+    window.location.href = '/admin';
+  });
+</script>
+{% endblock %}
