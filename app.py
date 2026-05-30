@@ -4,7 +4,7 @@ import os
 import sqlite3
 from urllib.parse import quote
 
-from flask import Flask, jsonify, render_template, request, session
+from flask import Flask, jsonify, redirect, render_template, request, session, url_for
 from werkzeug.security import check_password_hash, generate_password_hash
 
 from import_catalog import DATABASE_PATH, ensure_catalog_imported
@@ -95,8 +95,32 @@ def contact_context() -> dict:
     }
 
 
+def ensure_site_mode_selected():
+    selected_mode = session.get("site_mode")
+    if selected_mode not in {"mobile", "desktop"}:
+        return redirect(url_for("entry"))
+    return None
+
+
 @app.route("/")
+def entry():
+    return render_template("device_select.html", selected_mode=session.get("site_mode", "desktop"))
+
+
+@app.post("/seleccionar-modo")
+def select_mode():
+    selected_mode = (request.form.get("site_mode") or "desktop").strip().lower()
+    if selected_mode not in {"mobile", "desktop"}:
+        selected_mode = "desktop"
+    session["site_mode"] = selected_mode
+    return redirect(url_for("home"))
+
+
+@app.route("/inicio")
 def home():
+    pending_redirect = ensure_site_mode_selected()
+    if pending_redirect:
+        return pending_redirect
     products = fetch_products(active_only=True)
     featured = [item for item in products if item["stock"] > 0][:8]
     return render_template(
@@ -109,14 +133,36 @@ def home():
 
 @app.route("/catalogo")
 def catalog():
+    pending_redirect = ensure_site_mode_selected()
+    if pending_redirect:
+        return pending_redirect
     return render_template("catalog.html", **contact_context())
+
+
+@app.route("/juego-raee")
+def raee_game():
+    pending_redirect = ensure_site_mode_selected()
+    if pending_redirect:
+        return pending_redirect
+    return render_template("game.html")
 
 
 @app.route("/admin")
 def admin():
+    pending_redirect = ensure_site_mode_selected()
+    if pending_redirect:
+        return pending_redirect
     if not session.get("is_admin"):
         return render_template("admin_login.html", default_user=DEFAULT_ADMIN_USER, default_password=DEFAULT_ADMIN_PASSWORD)
     return render_template("admin.html")
+
+
+@app.context_processor
+def inject_site_mode() -> dict:
+    selected_mode = session.get("site_mode", "desktop")
+    if selected_mode not in {"mobile", "desktop"}:
+        selected_mode = "desktop"
+    return {"site_mode": selected_mode}
 
 
 @app.get("/api/products")

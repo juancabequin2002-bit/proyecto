@@ -9,10 +9,11 @@ import fitz
 
 
 BASE_DIR = Path(__file__).resolve().parent
-PDF_PATH = Path(r"C:\Users\juanc\Downloads\MARZO_27.pdf")
+PDF_PATH = BASE_DIR / "source" / "27_de_mayo_MaLuMakeup_solo_precio_venta (1).pdf"
 STATIC_DIR = BASE_DIR / "static"
 IMAGE_DIR = STATIC_DIR / "catalog"
 DATABASE_PATH = BASE_DIR / "malu_makeup.db"
+SKIP_PAGES = 6
 
 COMMON_LABELS = {
     "EMPRENDEDOR",
@@ -117,6 +118,92 @@ def reference_items(items: list[TextItem]) -> list[tuple[TextItem, str]]:
     return refs
 
 
+def section_bounds_for_ref(
+    ref_item: TextItem,
+    refs: list[tuple[TextItem, str]],
+    page_height: float,
+) -> tuple[float, float]:
+    ordered_refs = sorted((item for item, _ in refs), key=lambda current: current.bbox[1])
+    current_index = next((index for index, item in enumerate(ordered_refs) if item is ref_item), None)
+    if current_index is None:
+        return 0.0, page_height
+
+    current_center = (ref_item.bbox[1] + ref_item.bbox[3]) / 2
+    if current_index == 0:
+        top = 0.0
+    else:
+        previous_item = ordered_refs[current_index - 1]
+        previous_center = (previous_item.bbox[1] + previous_item.bbox[3]) / 2
+        top = (previous_center + current_center) / 2
+
+    if current_index == len(ordered_refs) - 1:
+        bottom = page_height
+    else:
+        next_item = ordered_refs[current_index + 1]
+        next_center = (next_item.bbox[1] + next_item.bbox[3]) / 2
+        bottom = (current_center + next_center) / 2
+
+    return max(0.0, top), min(page_height, bottom)
+
+
+def text_items_in_section(items: list[TextItem], top: float, bottom: float) -> list[TextItem]:
+    section_items = []
+    for item in items:
+        center_y = (item.bbox[1] + item.bbox[3]) / 2
+        if top <= center_y <= bottom:
+            section_items.append(item)
+    return section_items
+
+
+def visual_column_bounds(
+    section_items: list[TextItem],
+    page_width: float,
+    section_height: float,
+) -> tuple[float, float]:
+    if section_height <= 0:
+        return 0.0, page_width
+
+    step = 24
+    threshold = max(120.0, section_height * 0.40)
+    bins = []
+    for start in range(0, int(page_width), step):
+        end = min(page_width, start + step)
+        occupancy = 0.0
+        for item in section_items:
+            width_overlap = max(0.0, min(end, item.bbox[2]) - max(start, item.bbox[0]))
+            if width_overlap <= 0:
+                continue
+            occupancy += item.bbox[3] - item.bbox[1]
+        bins.append((start, end, occupancy))
+
+    best = None
+    current_start = None
+    current_end = None
+    for start, end, occupancy in bins:
+        if occupancy <= threshold:
+            current_start = start if current_start is None else current_start
+            current_end = end
+            continue
+        if current_start is not None:
+            width = current_end - current_start
+            if best is None or width > (best[1] - best[0]):
+                best = (current_start, current_end)
+            current_start = None
+            current_end = None
+
+    if current_start is not None and current_end is not None:
+        width = current_end - current_start
+        if best is None or width > (best[1] - best[0]):
+            best = (current_start, current_end)
+
+    if best is None or (best[1] - best[0]) < page_width * 0.22:
+        return 0.0, page_width
+
+    x0 = max(0.0, best[0] - 18)
+    x1 = min(page_width, best[1] + 18)
+    return x0, x1
+
+
 def description_for_title(items: list[TextItem], title: TextItem, price: TextItem | None) -> str:
     snippets = []
     lower_bound = title.bbox[3] + 5
@@ -199,6 +286,8 @@ def pair_products(page: fitz.Page) -> list[dict]:
     products = []
 
     for ref_item, ref in refs:
+        section_top, section_bottom = section_bounds_for_ref(ref_item, refs, page.rect.height)
+
         nearby_titles = []
         for title in titles:
             if abs(title.bbox[0] - ref_item.bbox[0]) > 260:
@@ -216,6 +305,9 @@ def pair_products(page: fitz.Page) -> list[dict]:
 
         nearby_prices = []
         for price in prices:
+            center_y = (price.bbox[1] + price.bbox[3]) / 2
+            if center_y < section_top or center_y > section_bottom:
+                continue
             score = abs(price.bbox[1] - ref_item.bbox[1]) + abs(price.bbox[0] - ref_item.bbox[0]) * 0.25
             if price.bbox[1] <= ref_item.bbox[1]:
                 score += 120
@@ -226,6 +318,9 @@ def pair_products(page: fitz.Page) -> list[dict]:
         _, selected_price = sorted(nearby_prices, key=lambda current: current[0])[0]
         sale_options = []
         for item in sale_prices:
+            center_y = (item.bbox[1] + item.bbox[3]) / 2
+            if center_y < section_top or center_y > section_bottom:
+                continue
             score = abs(item.bbox[1] - selected_price.bbox[1]) + abs(item.bbox[0] - selected_price.bbox[0]) * 0.25
             sale_options.append((score, item))
         matching_sale = sorted(sale_options, key=lambda current: current[0])[0][1] if sale_options else None
@@ -242,6 +337,8 @@ def pair_products(page: fitz.Page) -> list[dict]:
                 "sale_price": parse_money(matching_sale.text) if matching_sale else (parse_money(selected_price.text) or 0),
                 "title": title,
                 "price": selected_price,
+                "section_top": section_top,
+                "section_bottom": section_bottom,
             }
         )
 
@@ -262,32 +359,22 @@ def export_product_image(page: fitz.Page, product: dict, index: int) -> str:
     page_height = page.rect.height
     title = product["title"]
     price = product["price"]
-    x0, x1 = crop_mode_for_titles(title, page_width)
-    blocks = image_blocks(page)
-    selected_block = pick_image_block(blocks, title, price, x0, x1, page_width, page_height)
+    section_top = float(product.get("section_top", 0.0))
+    section_bottom = float(product.get("section_bottom", page_height))
+    items = text_items_in_section(collect_text(page), section_top, section_bottom)
+    x0, x1 = visual_column_bounds(items, page_width, section_bottom - section_top)
 
-    if selected_block is not None:
-        bx0, by0, bx1, by1 = selected_block
-        rect = fitz.Rect(max(0, bx0), max(0, by0), min(page_width, bx1), min(page_height, by1))
-    else:
-        column_width = x1 - x0
-        crop_x0 = max(0, x0 + column_width * 0.32)
-        crop_x1 = min(page_width, x1 - column_width * 0.02)
-        y0 = max(0, price.bbox[3] + 90)
-        y1 = min(page_height - 70, max(price.bbox[3] + 320, page_height - 120))
-        rect = fitz.Rect(crop_x0, y0, crop_x1, y1)
+    top_margin = 16
+    bottom_margin = 16
+    focus_start = min(title.bbox[1], price.bbox[1]) - 120
+    crop_y0 = max(0.0, section_top + top_margin, focus_start)
+    crop_y1 = min(page_height - 72, section_bottom - bottom_margin)
+    rect = fitz.Rect(x0, crop_y0, x1, crop_y1)
 
-    if rect.width < 40 or rect.height < 40:
-        y0 = max(0, price.bbox[3] + 40)
-        y1 = min(page_height - 60, max(price.bbox[3] + 280, page_height - 120))
-        rect = fitz.Rect(max(0, x0 + 80), y0, min(page_width, x1 - 20), y1)
+    if rect.width < page_width * 0.25 or rect.height < 180:
+        rect = fitz.Rect(0.0, crop_y0, page_width, crop_y1)
 
-    if rect.width < 40 or rect.height < 40:
-        y0 = max(0, page_height * 0.32)
-        y1 = min(page_height - 60, page_height * 0.88)
-        rect = fitz.Rect(max(0, x0 + 30), y0, min(page_width, x1 - 30), y1)
-
-    pix = page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5), clip=rect, alpha=False)
+    pix = page.get_pixmap(matrix=fitz.Matrix(3.0, 3.0), clip=rect, alpha=False)
     safe_ref = product["reference"] or f"page-{page.number + 1}-{index}"
     target = IMAGE_DIR / f"{safe_ref.lower()}.png"
     pix.save(target)
@@ -372,7 +459,7 @@ def ensure_catalog_imported() -> None:
 
     doc = fitz.open(PDF_PATH)
     current_category = "Catálogo"
-    for page_number in range(doc.page_count):
+    for page_number in range(SKIP_PAGES, doc.page_count):
         page = doc.load_page(page_number)
         page_text = clean_text(page.get_text("text"))
         current_category = detect_category(page_text, current_category)
@@ -407,5 +494,22 @@ def ensure_catalog_imported() -> None:
     conn.close()
 
 
-if __name__ == "__main__":
+def rebuild_catalog() -> None:
+    DATABASE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+
+    conn = sqlite3.connect(DATABASE_PATH)
+    ensure_tables(conn)
+    conn.execute("DELETE FROM products")
+    conn.execute("DELETE FROM sqlite_sequence WHERE name = 'products'")
+    conn.commit()
+    conn.close()
+
+    for image_file in IMAGE_DIR.glob("*.png"):
+        image_file.unlink(missing_ok=True)
+
     ensure_catalog_imported()
+
+
+if __name__ == "__main__":
+    rebuild_catalog()
